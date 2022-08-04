@@ -1,0 +1,45 @@
+
+@keyframes animate-left {
+  0% {margin-left: -2000px;}
+  75% {margin-left: 150px;}
+  100% {margin-left: 0px;}
+}
+
+
+@keyframes animate-right {
+  0% {margin-right: -2000px;}
+  75% {margin-right: 150px;}
+  100% {margin-right: 0px;}
+}
+
+@keyframes animate-bottom {
+  0% {margin-bottom: -2000px;}
+  75% {margin-bottom: 150px;}
+  100% {margin-bottom: 0px;}
+}
+
+@keyframes animate-top {
+  0% {margin-top: -150px;}
+  100% {margin-top: 0px;}
+}
+
+
+.animate-left {
+    animation-name: animate-left;
+    animation-duration: 1.5s;
+}
+
+.animate-right {
+    animation-name: animate-right;
+    animation-duration: 1.5s;
+}
+
+.animate-bottom {
+    animation-name: animate-bottom;
+    animation-duration: 3s;
+}
+
+.animate-top {
+    animation-name: animate-top;
+    animation-duration: 1s;
+}
